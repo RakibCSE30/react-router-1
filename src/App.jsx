@@ -1,5 +1,6 @@
 
 import './App.css'
+import LineChart from './Component/LineChart/LineChart'
  
 import NavBar from './Component/NavBar/NavBar'
 import PriceOptions from './Component/PriceOptions/PriceOptions'
@@ -13,6 +14,10 @@ function App() {
     <NavBar></NavBar>
 
     <PriceOptions></PriceOptions>
+
+    <LineChart></LineChart>
+      
+    
 
 
       {/* <p className=" text-xl bg-amber-300 max-w-7xl mx-auto " >
